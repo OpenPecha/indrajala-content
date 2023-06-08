@@ -1,6 +1,5 @@
-# README
+# Sefaria Deployment test
 
-> **Note:** This readme template is based on one from the [Good Docs Project](https://thegooddocsproject.dev). You can find it and a guide to filling it out [here](https://gitlab.com/tgdp/templates/-/tree/main/readme). (_Erase this note after filling out the readme._)
 
 <h1 align="center">
   <br>
