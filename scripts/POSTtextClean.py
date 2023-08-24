@@ -19,7 +19,7 @@ text = {
 def post_text(ref, text):
 	textJSON = json.dumps(text)
 	ref = ref.replace(" ", "_")
-	url = 'http://localhost:8000/api/texts/%s' % ref
+	url = 'http://indrajala.com/api/texts/%s' % ref
 	values = {'json': textJSON, 'apikey': 'apikey'}
 	data = urllib.parse.urlencode(values)
 	binary_data = data.encode('ascii')
