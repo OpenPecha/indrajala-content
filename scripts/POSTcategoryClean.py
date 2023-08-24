@@ -8,7 +8,7 @@ index = {
 }
 
 def post_index(index):
-	url = 'http://localhost:8000/api/index/' + index["categories"][0].replace(" ", "_")
+	url = 'http://indrajala.com/api/index/' + index["categories"][0].replace(" ", "_")
 	indexJSON = json.dumps(index)
 	values = {
 		'json': indexJSON, 
